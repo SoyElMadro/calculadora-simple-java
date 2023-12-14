@@ -22,7 +22,7 @@ public class Main {
         System.out.println("Dime el segundo numero");
         int num2 = scanner.nextInt();
 
-        Calcular.main(operacion, num1, num2);
+        Calcular.calcular(operacion, num1, num2);
     }
 
 }

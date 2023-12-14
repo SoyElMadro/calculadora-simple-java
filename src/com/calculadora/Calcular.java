@@ -1,7 +1,7 @@
 package com.calculadora;
 
 public class Calcular {
-    public static void main(String operacion, int num1, int num2) {
+    public static void calcular(String operacion, int num1, int num2) {
         int resultado;
 
         switch (operacion) {
